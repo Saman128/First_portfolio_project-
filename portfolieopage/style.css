@@ -1,0 +1,434 @@
+/* @import url("http://cdn.jsdelivr.net/npm/bootstrap-icon@1.3.0/font/bootstrap-icon.css"); */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    font-family:  Arial, sans-serif;
+}
+.element-cover{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.header{
+
+    width: 79%;
+}
+.navbar{
+    width: 20%;
+    height: 100vh;
+    background-color: rgba(223, 100, 120, 0.938);
+    display: flex;
+    flex-direction: column;
+    padding: 0.20rem 0.15rem;
+    gap: 1rem;
+}
+.name{
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    font-size: 20px;
+}
+.profile-pic {
+ background: url('./picture/picture.jpg');
+   background: cover;
+   background-position: center;
+    width: 135px;
+    height: 135px;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    border-radius: 100px;
+    box-shadow: 0px 0px 3px #2222228f;
+}
+.name p{
+    color: white;
+    font-size: 10px;
+    margin: 3rem 2rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    padding: 0.4rem;
+    text-align: center;
+
+}
+.social-icon ul{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    margin-top:1px;
+    gap:1.3rem;
+
+}
+  .social-icon ul li{
+    display:flex;
+    height:25px;
+    width:25px;
+    border-radius: 100%;
+    background-color:white;
+    color:rgba(223, 100, 120, 0.938);
+    align-items:center;
+    justify-content:center;
+    
+    
+}
+.nav-links  ul{
+   
+    display:flex;
+    flex-direction:column; 
+   list-style-type: none;
+    gap:1.5rem;
+    margin:2rem 4rem;
+    font-size:1.5rem;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+  
+}
+.nav-links ul li :hover{
+    background-color: white;
+    color:rgba(223, 100, 120, 0.938) ; 
+}
+.nav-links ul li i{
+    margin-right: 17px;
+}
+.button a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(192, 63, 84);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 14rem;
+    font-size: 2rem;
+    margin: 4rem 8rem;
+    padding:1rem  2rem;
+}
+.button a:hover{
+    box-shadow:0px 0px 10px  rgba(255, 255, 255, 0.521);
+}
+.header{
+    height: 100vh;
+}
+ .header-top{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(224, 226, 233, 0.705);
+}
+.header-top .top-left{
+    width: 60%;
+    height: 100%;
+}
+.top-left h1{
+    font-size: 500%;
+    color: rgba(0, 0, 0, 0.692);
+    margin-left: 3rem;
+    padding-top: 3rem;
+}
+ .top-left h3{
+    font-size: 300%;
+    color: rgba(0, 0, 0, 0.603);
+    margin-left: 3rem;
+}
+.top-left p{
+    font-size: 150%;
+    color: rgba(0, 0, 0, 0.705);
+    margin-top: 2rem;
+    margin-left: 3rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7rem;
+}
+.header-top .top-left .block{
+    /* border: 2px solid green; */
+    margin-top: 3rem;
+    margin-left: 3rem;
+    height: 20%;
+}
+.block div{
+    /* border: 2px solid purple; */
+    width: 20%;
+    height: 50%;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+}
+.block .but-1 a{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color:rgba(223, 100, 120, 0.938) ;
+}
+.block .but-2 a{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+.but-1 a:hover{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.74);
+}
+.but-2 a:hover{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.74);
+}
+.header-top .top-right{
+    width: 40%;
+    height: 100%;
+}
+.top-right .picture{
+    width: 65%;
+    height: 79%;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    background: url('./picture/picture.jpg');
+    background: cover;
+    background-position: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.63);
+}
+.header-bottom{
+    height: 65%;
+    width: 100%;
+}
+.header-bottom .header-start{
+    height: 20%;
+    width: 90%;
+}
+.header-start h1{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-size: 300%;
+    border-left: 4px solid rgba(223, 100, 120, 0.938);
+    color: rgba(0, 0, 0, 0.801);
+}
+.header-start p{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 150%;
+    color: rgba(0, 0, 0, 0.685);
+}
+.header-bottom .header-between{
+    height: 38.2%;
+}
+.header-between{
+    display: flex;
+    flex-direction: row;
+}
+.class1 h1, .class2 h1, .class3 h1{
+    font-size: 2rem;
+    margin-top:0.5rem;
+    margin-left:3rem;
+    padding: 0 1rem;
+}
+.class1 p, .class2 p, .class3 p{
+    font-size: 1.4rem;
+    margin-top:0.5rem;
+    margin-left:3rem;
+    line-height:1.7rem;
+    padding:0 1rem;
+    letter-spacing:0.1rem
+}
+.block1{
+    display:flex;
+    flex-direction:row;
+}
+.header-between .class1 .pic1{
+    background: url('./picture/cpp.png');
+    background: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin-left:3rem;
+}
+.header-between .class1 .pic2{
+    background: url('./picture/c.png');
+    background: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+.block2{
+    display:flex;
+    flex-direction:row;
+}
+.header-between .class2 .pic3{
+    background: url('./picture/html.png');
+    background: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin-left:3rem;
+}
+.header-between .class2 .pic4{
+    background: url('./picture/css.png');
+    background: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+.block3{
+    display:flex;
+    flex-direction:row;
+}
+.header-between .class3 .pic5{
+    background: url('./picture/frane.png');
+    background: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin-left:3rem;
+}
+.foot-note{
+    display:none;
+}
+@media (max-width: 500px){
+    html{
+        font-size: 31.5% ;
+    }
+    .element-cover{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        width: 110%;
+      height: 80vh;
+    }
+    .navbar .name{
+        font-size: 700%;
+    }
+    .navbar .profile-pic{
+       margin-left: 35%;
+       margin-top: 5rem;
+       align-items: center;
+    }
+    .navbar p{
+        margin: 4rem 6rem;
+        letter-spacing: 0.3rem;
+        word-spacing: 0.4rem;
+        font-size: 50%;
+        text-align: center;
+    }
+    .social-icon ul li{
+       margin: 3rem 2.5rem;
+       font-size: 200%;
+    }
+    .nav-links ul li a{
+        font-size: 350%;
+       margin-left: 9rem;
+    }
+     .button a{
+        font-size: 500%;
+        width: 70%;
+        padding: 3rem 1rem;
+        margin-top: 7rem ;
+        margin-left: 14rem;
+        border-radius: 10rem;
+        gap: 1rem;
+        align-items: center;
+    }
+    .header{
+
+        width: 104%;
+    }
+    .header-top{
+        display: block;
+        background-color: white;
+        font-size: 200%;
+    }
+    .header-top .top-left{
+        width: 100%;
+        height: 70%;
+        margin-left: 3rem;
+    }
+    .top-left p{
+        width: 90%;
+        line-height: 3.8rem;
+        word-spacing: 0.2rem;
+    }
+    .header-top .top-left .block{
+        height: 30%;
+        width: 100%;
+    }
+    .block div{
+        width: 25%;
+        height: 90%;
+        margin-top: 3rem;
+    }
+    .block .but-1 a{
+        padding: 2rem 3rem;
+        font-size: 2rem;
+    }
+    .block .but-2 a{
+        padding: 2rem 3rem;
+        font-size: 2rem;
+    }
+    .header-top .top-right{
+        width: 100%;
+    }
+     .top-right .picture{
+        width: 90%;
+        height: 57%;
+        margin-top: 1rem;
+        box-shadow: 1px 1px 2px rgb(82, 79, 79);
+    }
+    .header-bottom{
+       margin-top: 35%;
+       font-size: 200%;
+       width: 100%;
+       height: 100%;
+    }
+    .header-bottom .header-start{
+        width: 90%;
+        height: 13%;
+        margin-left: 4rem;
+    }
+    .header-bottom .header-between{
+        display: flex;
+        flex-direction: column;
+        margin-left: 4rem;
+        width: 90%;
+        margin-top: 5rem;
+        gap:2rem;
+    }
+    .header-between  h1 p{
+        width: 90%;
+    }
+    .class1 h1, .class2 h1, .class3 h1{
+        font-size: 200%;
+        margin-top: 2rem;
+    }
+    .class1 p, .class2 p, .class3 p{
+        font-size: 200%;
+        margin-top: 2rem;
+        line-height: 3.5rem;
+    }
+    .header-bottom .header-end{
+        margin-top:35rem;
+    }
+    .foot-note {
+       display:flex;
+       flex-direction:row;
+       width:106%;
+       height:5%;
+       background-color:gray;
+       margin-top:54rem;
+    }
+     .email{
+        font-size:400%;
+        margin:3rem 25rem;
+    }
+}
